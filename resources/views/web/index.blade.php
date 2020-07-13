@@ -35,6 +35,14 @@
             <span class="">Register</span>
             </a>
         </div>
+
+        @if(Auth::check())
+        <div class="col-md-12 btn_section reg_btn_section">
+            <a href="{{url('home')}}" class="home_btn">
+                Member Home
+            </a>
+        </div>
+        @endif
     </div>
   </div>
 

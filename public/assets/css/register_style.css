@@ -40,3 +40,7 @@
     opacity: 0.8;
     text-decoration: none;
 }
+
+.help-block {
+    color: red !important;
+}
