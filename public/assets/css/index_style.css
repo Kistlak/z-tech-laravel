@@ -1,0 +1,43 @@
+body {
+    font-family: Muli,sans-serif;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.welcome_text {
+    color: #092038;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.btn_section {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.login_btn, .reg_btn {
+    font-size: 18px;
+    font-weight: 400;
+    background: #092038;
+    outline: none;
+    color: white;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.login_btn:hover, .reg_btn:hover {
+    text-decoration: none;
+    opacity: 0.8;
+}
+
