@@ -41,3 +41,11 @@ body {
     opacity: 0.8;
 }
 
+.home_btn {
+    color: #092038;
+    font-size: 18px;
+}
+
+.home_btn:hover {
+    color: #092038;
+}
