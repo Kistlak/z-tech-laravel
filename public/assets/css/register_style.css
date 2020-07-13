@@ -1,0 +1,42 @@
+.UserRegText {
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.SetTop {
+    padding-top: 20px;
+}
+
+.RegBtn {
+    font-size: 18px;
+    font-weight: 400;
+    background: #092038;
+    outline: none;
+    color: white;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.RegBtn:hover {
+    color: white;
+    opacity: 0.8;
+}
+
+.LoginLink {
+    font-size: 12px;
+    font-weight: 400;
+    background: #092038;
+    outline: none;
+    color: white;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    float: right;
+}
+
+.LoginLink:hover {
+    color: white;
+    opacity: 0.8;
+    text-decoration: none;
+}
