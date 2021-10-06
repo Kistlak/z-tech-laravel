@@ -30,3 +30,5 @@ Route::post('save_table_data', 'HomeController@save_table_data')->name('save_tab
 Route::post('edit_table_data', 'HomeController@edit_table_data')->name('edit_table_data');
 
 Route::post('delete_table_data', 'HomeController@delete_table_data')->name('delete_table_data');
+
+Route::get('UpdateList', 'SubController@UpdateList')->name('UpdateList');
